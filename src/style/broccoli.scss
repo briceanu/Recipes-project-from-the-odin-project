@@ -63,9 +63,8 @@ main {
     position: relative;
     list-style: none;
   }
-  .ingredients li:nth-child(1)::before {
+  @mixin addBeforeElement {
     content: ' ';
-    background-image: url(../assets/ingredients/butter.svg);
     width: 30px;
     height: 30px;
     display: block;
@@ -74,16 +73,13 @@ main {
     left: -40px;
     background-size: 30px;
   }
+  .ingredients li:nth-child(1)::before {
+    background-image: url(../assets/ingredients/butter.svg);
+    @include addBeforeElement();
+  }
   .ingredients li:nth-child(2)::before {
-    content: ' ';
     background-image: url(../assets/ingredients/celery.svg);
-    width: 30px;
-    height: 30px;
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: -40px;
-    background-size: 30px;
+    @include addBeforeElement();
   }
   .ingredients li:nth-child(3)::before {
     content: ' ';
@@ -97,48 +93,20 @@ main {
     background-size: 30px;
   }
   .ingredients li:nth-child(4)::before {
-    content: ' ';
     background-image: url(../assets/ingredients/broccoli.svg);
-    width: 30px;
-    height: 30px;
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: -40px;
-    background-size: 30px;
+    @include addBeforeElement();
   }
   .ingredients li:nth-child(5)::before {
-    content: ' ';
     background-image: url(../assets/ingredients/wheat.svg);
-    width: 30px;
-    height: 30px;
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: -40px;
-    background-size: 30px;
+    @include addBeforeElement();
   }
   .ingredients li:nth-child(6)::before {
-    content: ' ';
     background-image: url(../assets/ingredients/milk.svg);
-    width: 30px;
-    height: 30px;
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: -40px;
-    background-size: 30px;
+    @include addBeforeElement();
   }
   .ingredients li:nth-child(7)::before {
-    content: ' ';
     background-image: url(../assets/ingredients/pepper.svg);
-    width: 30px;
-    height: 30px;
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: -40px;
-    background-size: 30px;
+    @include addBeforeElement();
   }
 }
 @media (max-width: 1200px) {
@@ -152,4 +120,16 @@ main {
     flex-direction: column;
     justify-content: center;
   }
+}
+.home_link {
+  width: fit-content;
+  display: block;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  margin: 1rem 0;
+}
+.steps ol li {
+  list-style-type: style;
 }

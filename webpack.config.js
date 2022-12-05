@@ -3,7 +3,11 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development',
-  entry: { index: './src/js/index.js', broccoli: './src/js/broccoli.js' },
+  entry: {
+    index: './src/js/index.js',
+    broccoli: './src/js/broccoli.js',
+    egg_salad: './src/js/egg_salad.js',
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main[contenthash].js',
@@ -34,10 +38,10 @@ module.exports = {
         test: /\.(css|scss)$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
-      {
-        test: /\.html$/i,
-        use: ['html-loader'],
-      },
+      // {
+      //   test: /\.html$/i,
+      //   use: ['html-loader'],
+      // },
     ],
   },
 
@@ -53,6 +57,12 @@ module.exports = {
       template: './src/broccoli_soup.html',
       filename: 'broccoli_soup.html',
       chunks: ['broccoli'],
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Recipes',
+      template: './src/egg_salad.html',
+      filename: 'egg_salad.html',
+      chunks: ['egg_salad'],
     }),
     new MiniCssExtractPlugin({ filename: 'style[contenthash].css' }),
   ],
