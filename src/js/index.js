@@ -1,0 +1,13 @@
+import style from '../style/style.scss';
+import broccoli_soup from '../broccoli_soup.html';
+import restaurant_plate from '../assets/restaurant_plate.svg';
+import broccoli_soup_640 from '../assets/broccoli_soup_640.jpg';
+import broccoli_soup_1280 from '../assets/broccoli_soup_1280.jpg';
+import broccoli_soup_1920 from '../assets/broccoli_soup_1920.jpg';
+import egg_salad_640 from '../assets/egg_salad_640.jpg';
+import egg_salad_1280 from '../assets/egg_salad_1280.jpg';
+import egg_salad_1920 from '../assets/egg_salad_1920.jpg';
+import shrimp_640 from '../assets/shrimp_640.jpg';
+import shrimp_1280 from '../assets/shrimp_1280.jpg';
+import shrimp_1920 from '../assets/shrimp_1920.jpg';
+console.log('aod  awd aw');

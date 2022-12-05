@@ -1,0 +1,62 @@
+@use './font' as *;
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img[alt='odin_brand'] {
+  display: block;
+  max-width: 8rem;
+  max-height: 8rem;
+  margin: 1rem auto;
+}
+
+h2 {
+  font-family: $font-title;
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 3.125rem;
+  color: $recipes-color;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.broccoli_soup,
+.egg_salad,
+.shrimp {
+  img {
+    max-width: 25em;
+    height: 40vh;
+    background-size: contain;
+    transition: all 200ms ease-in-out;
+  }
+  img:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 5px 4px #99d9ff;
+    scale: 1.1;
+  }
+  a > h3 {
+    text-align: center;
+    color: $recipes-color;
+    font-family: $font-heading;
+    font-weight: 900;
+    font-size: 2.3rem;
+  }
+  a > h3 {
+    transition: scale 400ms ease-in-out;
+    padding-block-start: 1rem;
+  }
+  a :hover {
+    text-decoration: none;
+    scale: 1.2;
+  }
+}
+h1 {
+  color: red;
+}
