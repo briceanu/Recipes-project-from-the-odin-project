@@ -17,10 +17,11 @@ main {
   grid-template: repeat(2 1fr) / 1fr 3fr;
   gap: 2rem;
   img {
-    max-width: 30rem;
+    max-width: 35rem;
     height: auto;
-    display: inline-block;
+    display: block;
     grid-area: 1/1/2/2;
+    object-fit: contain;
   }
   .description {
     grid-area: 1/2/2/3;
@@ -57,7 +58,9 @@ main {
   li:nth-child(4),
   li:nth-child(5),
   li:nth-child(6),
-  li:nth-child(7) {
+  li:nth-child(7),
+  li:nth-child(8),
+  li:nth-child(9) {
     position: relative;
     list-style: none;
   }
@@ -72,38 +75,48 @@ main {
     background-size: 30px;
   }
   .ingredients li:nth-child(1)::before {
-    background-image: url(../assets/ingredients/butter.svg);
+    background-image: url(../assets/ingredients/paprika.svg);
     @include addBeforeElement();
   }
   .ingredients li:nth-child(2)::before {
-    background-image: url(../assets/ingredients/celery.svg);
+    background-image: url(../assets/ingredients/garlic.svg);
     @include addBeforeElement();
   }
   .ingredients li:nth-child(3)::before {
     content: ' ';
-    background-image: url(../assets/ingredients/soup.svg);
+    background-image: url(../assets/ingredients/spoon.svg);
     width: 30px;
     height: 30px;
     display: block;
     position: absolute;
-    top: 0px;
+    top: 20px;
     left: -40px;
     background-size: 30px;
+    background-repeat: no-repeat;
   }
   .ingredients li:nth-child(4)::before {
-    background-image: url(../assets/ingredients/broccoli.svg);
+    background-image: url(../assets/ingredients/Lemon.svg);
     @include addBeforeElement();
+    background-repeat: no-repeat;
   }
   .ingredients li:nth-child(5)::before {
-    background-image: url(../assets/ingredients/wheat.svg);
+    background-image: url(../assets/ingredients/oliveoil.svg);
     @include addBeforeElement();
   }
   .ingredients li:nth-child(6)::before {
-    background-image: url(../assets/ingredients/milk.svg);
+    background-image: url(../assets/ingredients/pepper.svg);
     @include addBeforeElement();
   }
   .ingredients li:nth-child(7)::before {
-    background-image: url(../assets/ingredients/pepper.svg);
+    background-image: url(../assets/ingredients/basil.svg);
+    @include addBeforeElement();
+  }
+  .ingredients li:nth-child(8)::before {
+    background-image: url(../assets/ingredients/sugar.svg);
+    @include addBeforeElement();
+  }
+  .ingredients li:nth-child(9)::before {
+    background-image: url(../assets/ingredients/shrimp.svg);
     @include addBeforeElement();
   }
 }
@@ -111,14 +124,10 @@ main {
   list-style-type: style;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   main {
-    img[alt='broccoli_soup'] {
-      width: 100vw;
-      background-color: lim;
-    }
+    width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 }

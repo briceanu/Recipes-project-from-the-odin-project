@@ -7,6 +7,7 @@ module.exports = {
     index: './src/js/index.js',
     broccoli: './src/js/broccoli.js',
     egg_salad: './src/js/egg_salad.js',
+    shrimp: './src/js/shrimp.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -38,10 +39,10 @@ module.exports = {
         test: /\.(css|scss)$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
-      // {
-      //   test: /\.html$/i,
-      //   use: ['html-loader'],
-      // },
+      {
+        test: /\.html$/i,
+        use: ['html-loader'],
+      },
     ],
   },
 
@@ -63,6 +64,12 @@ module.exports = {
       template: './src/egg_salad.html',
       filename: 'egg_salad.html',
       chunks: ['egg_salad'],
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Recipes',
+      template: './src/shrimp.html',
+      filename: 'shrimp.html',
+      chunks: ['shrimp'],
     }),
     new MiniCssExtractPlugin({ filename: 'style[contenthash].css' }),
   ],

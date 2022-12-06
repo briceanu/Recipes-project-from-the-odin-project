@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss":
-/*!***********************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss ***!
-  \***********************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/egg_salad.scss":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/egg_salad.scss ***!
+  \***************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -16,13 +16,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/ingredients/egg.svg */ "./src/assets/ingredients/egg.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/ingredients/mayonnaise.svg */ "./src/assets/ingredients/mayonnaise.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/ingredients/spring_onion.svg */ "./src/assets/ingredients/spring_onion.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/ingredients/mustard.svg */ "./src/assets/ingredients/mustard.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/ingredients/paprika.svg */ "./src/assets/ingredients/paprika.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/ingredients/pepper_salt.svg */ "./src/assets/ingredients/pepper_salt.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/ingredients/pepper.svg */ "./src/assets/ingredients/pepper.svg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Bangers&family=GFS+Didot&family=Gloria+Hallelujah&display=swap);"]);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);
+var ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);
+var ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*,\n::before,\n::after {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n}\n\nimg[alt=odin_brand] {\n  display: block;\n  max-width: 8rem;\n  max-height: 8rem;\n  margin: 1rem auto;\n}\n\nh2 {\n  font-family: \"Bangers\", cursive;\n  margin: 1rem auto;\n  text-align: center;\n  font-size: 3.125rem;\n  color: #99d9ff;\n}\n\nmain {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 3rem;\n  align-items: center;\n  justify-content: center;\n}\n\n.broccoli_soup img,\n.egg_salad img,\n.shrimp img {\n  max-width: 25em;\n  height: 40vh;\n  background-size: contain;\n  transition: all 200ms ease-in-out;\n}\n.broccoli_soup img:hover,\n.egg_salad img:hover,\n.shrimp img:hover {\n  border-radius: 10px;\n  box-shadow: 0 0 5px 4px #99d9ff;\n  scale: 1.1;\n}\n.broccoli_soup a > h3,\n.egg_salad a > h3,\n.shrimp a > h3 {\n  text-align: center;\n  color: #99d9ff;\n  font-family: \"GFS Didot\", serif;\n  font-weight: 900;\n  font-size: 2.3rem;\n}\n.broccoli_soup a > h3,\n.egg_salad a > h3,\n.shrimp a > h3 {\n  transition: scale 400ms ease-in-out;\n  padding-block-start: 1rem;\n}\n.broccoli_soup a :hover,\n.egg_salad a :hover,\n.shrimp a :hover {\n  text-decoration: none;\n  scale: 1.2;\n}\n\nh1 {\n  color: red;\n}", "",{"version":3,"sources":["webpack://./src/style/style.scss","webpack://./src/style/_font.scss"],"names":[],"mappings":"AACA;;;EAGE,UAAA;EACA,SAAA;EACA,sBAAA;AACF;;AACA;EACE,cAAA;EACA,eAAA;EACA,gBAAA;EACA,iBAAA;AAEF;;AACA;EACE,+BCfW;EDgBX,iBAAA;EACA,kBAAA;EACA,mBAAA;EACA,cChBc;ADkBhB;;AAAA;EACE,aAAA;EACA,eAAA;EACA,SAAA;EACA,mBAAA;EACA,uBAAA;AAGF;;AAEE;;;EACE,eAAA;EACA,YAAA;EACA,wBAAA;EACA,iCAAA;AAGJ;AADE;;;EACE,mBAAA;EACA,+BAAA;EACA,UAAA;AAKJ;AAHE;;;EACE,kBAAA;EACA,cCzCY;ED0CZ,+BC5CW;ED6CX,gBAAA;EACA,iBAAA;AAOJ;AALE;;;EACE,mCAAA;EACA,yBAAA;AASJ;AAPE;;;EACE,qBAAA;EACA,UAAA;AAWJ;;AARA;EACE,UAAA;AAWF","sourcesContent":["@use './font' as *;\n*,\n::before,\n::after {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n}\nimg[alt='odin_brand'] {\n  display: block;\n  max-width: 8rem;\n  max-height: 8rem;\n  margin: 1rem auto;\n}\n\nh2 {\n  font-family: $font-title;\n  margin: 1rem auto;\n  text-align: center;\n  font-size: 3.125rem;\n  color: $recipes-color;\n}\nmain {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 3rem;\n  align-items: center;\n  justify-content: center;\n}\n.broccoli_soup,\n.egg_salad,\n.shrimp {\n  img {\n    max-width: 25em;\n    height: 40vh;\n    background-size: contain;\n    transition: all 200ms ease-in-out;\n  }\n  img:hover {\n    border-radius: 10px;\n    box-shadow: 0 0 5px 4px #99d9ff;\n    scale: 1.1;\n  }\n  a > h3 {\n    text-align: center;\n    color: $recipes-color;\n    font-family: $font-heading;\n    font-weight: 900;\n    font-size: 2.3rem;\n  }\n  a > h3 {\n    transition: scale 400ms ease-in-out;\n    padding-block-start: 1rem;\n  }\n  a :hover {\n    text-decoration: none;\n    scale: 1.2;\n  }\n}\nh1 {\n  color: red;\n}\n","@import url('https://fonts.googleapis.com/css2?family=Bangers&family=GFS+Didot&family=Gloria+Hallelujah&display=swap');\n$font-title: 'Bangers', cursive;\n$font-heading: 'GFS Didot', serif;\n$font-paragraph: 'Gloria Hallelujah', cursive;\n$recipes-color: #99d9ff;\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "img[alt=odin_brand] {\n  display: block;\n  max-width: 8rem;\n  max-height: 8rem;\n  margin: 1rem auto;\n}\n\nimg[alt=odin_brand] + h2 {\n  font-family: \"Bangers\", cursive;\n  margin: 1rem auto;\n  text-align: center;\n  font-size: 3.125rem;\n  color: #99d9ff;\n}\n\nmain {\n  display: grid;\n  grid-template: repeat(2 1fr)/1fr 3fr;\n  gap: 2rem;\n}\nmain img {\n  max-width: 30rem;\n  height: auto;\n  display: inline-block;\n  grid-area: 1/1/2/2;\n}\nmain .description {\n  grid-area: 1/2/2/3;\n}\nmain .steps {\n  grid-area: 2/2/3/3;\n}\nmain .ingredients {\n  grid-area: 2/1/3/2;\n}\nmain img,\nmain .description,\nmain .steps,\nmain .ingredients {\n  border: 1px solid black;\n  border-radius: 10px;\n  padding: 1rem;\n}\nmain img h2,\nmain img h3,\nmain .description h2,\nmain .description h3,\nmain .steps h2,\nmain .steps h3,\nmain .ingredients h2,\nmain .ingredients h3 {\n  font-family: \"GFS Didot\", serif;\n}\nmain img p,\nmain .description p,\nmain .steps p,\nmain .ingredients p {\n  font-family: \"Gloria Hallelujah\", cursive;\n}\nmain ol > li,\nmain ul > li {\n  padding: 0.4rem 0;\n  font-family: \"Gloria Hallelujah\", cursive;\n}\nmain .ingredients li:nth-child(1),\nmain li:nth-child(2),\nmain li:nth-child(3),\nmain li:nth-child(4),\nmain li:nth-child(5),\nmain li:nth-child(6),\nmain li:nth-child(7) {\n  position: relative;\n  list-style: none;\n}\nmain .ingredients li:nth-child(1)::before {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  content: \" \";\n  width: 30px;\n  height: 30px;\n  display: block;\n  position: absolute;\n  top: 10px;\n  left: -40px;\n  background-size: 30px;\n}\nmain .ingredients li:nth-child(2)::before {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  content: \" \";\n  width: 30px;\n  height: 30px;\n  display: block;\n  position: absolute;\n  top: 10px;\n  left: -40px;\n  background-size: 30px;\n}\nmain .ingredients li:nth-child(3)::before {\n  content: \" \";\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  width: 30px;\n  height: 30px;\n  display: block;\n  position: absolute;\n  top: 0px;\n  left: -40px;\n  background-size: 30px;\n}\nmain .ingredients li:nth-child(4)::before {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n  content: \" \";\n  width: 30px;\n  height: 30px;\n  display: block;\n  position: absolute;\n  top: 10px;\n  left: -40px;\n  background-size: 30px;\n}\nmain .ingredients li:nth-child(5)::before {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n  content: \" \";\n  width: 30px;\n  height: 30px;\n  display: block;\n  position: absolute;\n  top: 10px;\n  left: -40px;\n  background-size: 30px;\n}\nmain .ingredients li:nth-child(6)::before {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ");\n  content: \" \";\n  width: 30px;\n  height: 30px;\n  display: block;\n  position: absolute;\n  top: 10px;\n  left: -40px;\n  background-size: 30px;\n}\nmain .ingredients li:nth-child(7)::before {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + ");\n  content: \" \";\n  width: 30px;\n  height: 30px;\n  display: block;\n  position: absolute;\n  top: 10px;\n  left: -40px;\n  background-size: 30px;\n}\n\n.steps ol li {\n  list-style-type: style;\n}\n\n@media (max-width: 950px) {\n  main {\n    display: grid;\n    grid-template: 1fr/1fr;\n  }\n  main img[alt=egg_salad] {\n    grid-area: 1/1/2/-1;\n    display: block;\n    width: 100vw;\n    width: 100%;\n    width: 1200;\n  }\n  main .description {\n    grid-area: 2/1/3/2;\n  }\n  main .steps {\n    grid-area: 3/1/4/2;\n  }\n  main .ingredients {\n    grid-area: 4/1/5/2;\n  }\n}", "",{"version":3,"sources":["webpack://./src/style/egg_salad.scss","webpack://./src/style/_font.scss"],"names":[],"mappings":"AACA;EACE,cAAA;EACA,eAAA;EACA,gBAAA;EACA,iBAAA;AACF;;AACA;EACE,+BCPW;EDQX,iBAAA;EACA,kBAAA;EACA,mBAAA;EACA,cCRc;ADUhB;;AAAA;EACE,aAAA;EACA,oCAAA;EACA,SAAA;AAGF;AAFE;EACE,gBAAA;EACA,YAAA;EACA,qBAAA;EACA,kBAAA;AAIJ;AAFE;EACE,kBAAA;AAIJ;AAFE;EACE,kBAAA;AAIJ;AAFE;EACE,kBAAA;AAIJ;AAFE;;;;EAIE,uBAAA;EACA,mBAAA;EACA,aAAA;AAIJ;AAHI;;;;;;;;EAEE,+BCxCS;ADmDf;AATI;;;;EACE,yCC1CW;ADwDjB;AAXE;;EAEE,iBAAA;EACA,yCChDa;AD6DjB;AAXE;;;;;;;EAOE,kBAAA;EACA,gBAAA;AAaJ;AADE;EACE,yDAAA;EAVA,YAAA;EACA,WAAA;EACA,YAAA;EACA,cAAA;EACA,kBAAA;EACA,SAAA;EACA,WAAA;EACA,qBAAA;AAcJ;AARE;EACE,yDAAA;EAdA,YAAA;EACA,WAAA;EACA,YAAA;EACA,cAAA;EACA,kBAAA;EACA,SAAA;EACA,WAAA;EACA,qBAAA;AAyBJ;AAfE;EACE,YAAA;EACA,yDAAA;EACA,WAAA;EACA,YAAA;EACA,cAAA;EACA,kBAAA;EACA,QAAA;EACA,WAAA;EACA,qBAAA;AAiBJ;AAfE;EACE,yDAAA;EA7BA,YAAA;EACA,WAAA;EACA,YAAA;EACA,cAAA;EACA,kBAAA;EACA,SAAA;EACA,WAAA;EACA,qBAAA;AA+CJ;AAtBE;EACE,yDAAA;EAjCA,YAAA;EACA,WAAA;EACA,YAAA;EACA,cAAA;EACA,kBAAA;EACA,SAAA;EACA,WAAA;EACA,qBAAA;AA0DJ;AA7BE;EACE,yDAAA;EArCA,YAAA;EACA,WAAA;EACA,YAAA;EACA,cAAA;EACA,kBAAA;EACA,SAAA;EACA,WAAA;EACA,qBAAA;AAqEJ;AApCE;EACE,yDAAA;EAzCA,YAAA;EACA,WAAA;EACA,YAAA;EACA,cAAA;EACA,kBAAA;EACA,SAAA;EACA,WAAA;EACA,qBAAA;AAgFJ;;AA1CA;EACE,sBAAA;AA6CF;;AA1CA;EACE;IACE,aAAA;IACA,sBAAA;EA6CF;EA5CE;IACE,mBAAA;IACA,cAAA;IACA,YAAA;IACA,WAAA;IACA,WAAA;EA8CJ;EA5CE;IACE,kBAAA;EA8CJ;EA5CE;IACE,kBAAA;EA8CJ;EA5CE;IACE,kBAAA;EA8CJ;AACF","sourcesContent":["@use './font' as *;\nimg[alt='odin_brand'] {\n  display: block;\n  max-width: 8rem;\n  max-height: 8rem;\n  margin: 1rem auto;\n}\nimg[alt='odin_brand'] + h2 {\n  font-family: $font-title;\n  margin: 1rem auto;\n  text-align: center;\n  font-size: 3.125rem;\n  color: $recipes-color;\n}\nmain {\n  display: grid;\n  grid-template: repeat(2 1fr) / 1fr 3fr;\n  gap: 2rem;\n  img {\n    max-width: 30rem;\n    height: auto;\n    display: inline-block;\n    grid-area: 1/1/2/2;\n  }\n  .description {\n    grid-area: 1/2/2/3;\n  }\n  .steps {\n    grid-area: 2/2/3/3;\n  }\n  .ingredients {\n    grid-area: 2/1/3/2;\n  }\n  img,\n  .description,\n  .steps,\n  .ingredients {\n    border: 1px solid black;\n    border-radius: 10px;\n    padding: 1rem;\n    h2,\n    h3 {\n      font-family: $font-heading;\n    }\n    p {\n      font-family: $font-paragraph;\n    }\n  }\n  ol > li,\n  ul > li {\n    padding: 0.4rem 0;\n    font-family: $font-paragraph;\n  }\n  .ingredients li:nth-child(1),\n  li:nth-child(2),\n  li:nth-child(3),\n  li:nth-child(4),\n  li:nth-child(5),\n  li:nth-child(6),\n  li:nth-child(7) {\n    position: relative;\n    list-style: none;\n  }\n  @mixin addBeforeElement {\n    content: ' ';\n    width: 30px;\n    height: 30px;\n    display: block;\n    position: absolute;\n    top: 10px;\n    left: -40px;\n    background-size: 30px;\n  }\n  .ingredients li:nth-child(1)::before {\n    background-image: url(../assets/ingredients/egg.svg);\n    @include addBeforeElement();\n  }\n  .ingredients li:nth-child(2)::before {\n    background-image: url(../assets/ingredients/mayonnaise.svg);\n    @include addBeforeElement();\n  }\n  .ingredients li:nth-child(3)::before {\n    content: ' ';\n    background-image: url(../assets/ingredients/spring_onion.svg);\n    width: 30px;\n    height: 30px;\n    display: block;\n    position: absolute;\n    top: 0px;\n    left: -40px;\n    background-size: 30px;\n  }\n  .ingredients li:nth-child(4)::before {\n    background-image: url(../assets/ingredients/mustard.svg);\n    @include addBeforeElement();\n  }\n  .ingredients li:nth-child(5)::before {\n    background-image: url(../assets/ingredients/paprika.svg);\n    @include addBeforeElement();\n  }\n  .ingredients li:nth-child(6)::before {\n    background-image: url(../assets/ingredients/pepper_salt.svg);\n    @include addBeforeElement();\n  }\n  .ingredients li:nth-child(7)::before {\n    background-image: url(../assets/ingredients/pepper.svg);\n    @include addBeforeElement();\n  }\n}\n.steps ol li {\n  list-style-type: style;\n}\n\n@media (max-width: 950px) {\n  main {\n    display: grid;\n    grid-template: 1fr/ 1fr;\n    img[alt='egg_salad'] {\n      grid-area: 1/1/2/-1;\n      display: block;\n      width: 100vw;\n      width: 100%;\n      width: 1200;\n    }\n    .description {\n      grid-area: 2/1/3/2;\n    }\n    .steps {\n      grid-area: 3/1/4/2;\n    }\n    .ingredients {\n      grid-area: 4/1/5/2;\n    }\n  }\n}\n","@import url('https://fonts.googleapis.com/css2?family=Bangers&family=GFS+Didot&family=Gloria+Hallelujah&display=swap');\n$font-title: 'Bangers', cursive;\n$font-heading: 'GFS Didot', serif;\n$font-paragraph: 'Gloria Hallelujah', cursive;\n$recipes-color: #99d9ff;\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -123,6 +140,41 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+  if (!url) {
+    return url;
+  }
+  url = String(url.__esModule ? url.default : url);
+
+  // If url is already wrapped in quotes, remove them
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+  if (options.hash) {
+    url += options.hash;
+  }
+
+  // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+  return url;
+};
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/runtime/sourceMaps.js":
 /*!************************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/sourceMaps.js ***!
@@ -151,74 +203,10 @@ module.exports = function (item) {
 
 /***/ }),
 
-/***/ "./src/broccoli_soup.html":
-/*!********************************!*\
-  !*** ./src/broccoli_soup.html ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ "./node_modules/html-loader/dist/runtime/getUrl.js");
-/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);
-// Imports
-
-var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/restaurant_plate.svg */ "./src/assets/restaurant_plate.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../src/assets/broccoli_soup_640.jpg */ "./src/assets/broccoli_soup_640.jpg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../src/assets/broccoli_soup_1280.jpg */ "./src/assets/broccoli_soup_1280.jpg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../src/assets/broccoli_soup_1920.jpg */ "./src/assets/broccoli_soup_1920.jpg"), __webpack_require__.b);
-// Module
-var ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);
-var ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);
-var ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);
-var ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);
-var code = "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>broccoli soup</title>\n  </head>\n  <body>\n    <img src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" alt=\"odin_brand\" />\n    <h2>Best Cream Of Broccoli Soup</h2>\n    <main>\n      <img\n        srcset=\"\n          " + ___HTML_LOADER_REPLACEMENT_1___ + "   640w,\n          " + ___HTML_LOADER_REPLACEMENT_2___ + " 1280w,\n          " + ___HTML_LOADER_REPLACEMENT_3___ + " 1920w\n        \"\n        alt=\"broccoli_soup\"\n        src=\"" + ___HTML_LOADER_REPLACEMENT_1___ + " \"\n      />\n      <div class=\"description\">\n        <h2>Description</h2>\n        <p>\n          Make restaurant-worthy cream of broccoli soup in the comfort of your\n          own kitchen with this top-rated recipe. It's thick, flavorful, creamy,\n          and easy to throw together on whim with simple ingredients.\n        </p>\n        <h2>Recipe credits:</h2>\n        <a\n          href=\"https://www.allrecipes.com/recipe/13313/best-cream-of-broccoli-soup/\"\n          >Best Cream of Broccoli Soup</a\n        >\n      </div>\n      <div class=\"steps\">\n        <h2>Steps</h2>\n        <ol>\n          <li>\n            Melt 2 tablespoons butter in a medium stock pot over medium heat.\n            Saute onion and celery until tender. Add broccoli and broth, cover,\n            and simmer for 10 minutes.\n          </li>\n          <li>\n            Pour the soup into a blender, filling the pitcher no more than\n            halfway full. Hold down the lid of the blender with a folded kitchen\n            towel, and carefully start the blender, using a few quick pulses to\n            get the soup moving before leaving it on to puree. Puree in batches\n            until smooth and pour into a clean pot. Alternately, you can use an\n            immersion blender and puree the soup right in the cooking pot.\n          </li>\n          <li>\n            Melt 3 tablespoons butter in a small saucepan over medium to\n            medium-low heat; stir in flour and add milk. Stir until thick and\n            bubbly, and add to soup. Season with pepper and serve.\n          </li>\n        </ol>\n      </div>\n      <div class=\"ingredients\">\n        <h3>Ingredients</h3>\n        <ul>\n          <li>5 tablespoons butter, divided</li>\n          <li>1 stalk celery, chopped</li>\n          <li>1 cups chicken broth</li>\n          <li>3 cups broccoli florets</li>\n          <li>3 tablespoons all-purpose flour</li>\n          <li>2 cups milk</li>\n          <li>ground black pepper to taste</li>\n        </ul>\n      </div>\n    </main>\n    <a class=\"home_link\" href=\"template.html\">HOME</a>\n  </body>\n</html>\n";
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);
-
-/***/ }),
-
-/***/ "./node_modules/html-loader/dist/runtime/getUrl.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/html-loader/dist/runtime/getUrl.js ***!
-  \*********************************************************/
-/***/ ((module) => {
-
-
-
-module.exports = function (url, options) {
-  if (!options) {
-    // eslint-disable-next-line no-param-reassign
-    options = {};
-  }
-
-  if (!url) {
-    return url;
-  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
-
-
-  url = String(url.__esModule ? url.default : url);
-
-  if (options.hash) {
-    // eslint-disable-next-line no-param-reassign
-    url += options.hash;
-  }
-
-  if (options.maybeNeedQuotes && /[\t\n\f\r "'=<>`]/.test(url)) {
-    return "\"".concat(url, "\"");
-  }
-
-  return url;
-};
-
-/***/ }),
-
-/***/ "./src/style/style.scss":
-/*!******************************!*\
-  !*** ./src/style/style.scss ***!
-  \******************************/
+/***/ "./src/style/egg_salad.scss":
+/*!**********************************!*\
+  !*** ./src/style/egg_salad.scss ***!
+  \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -237,7 +225,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./style.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_egg_salad_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./egg_salad.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/egg_salad.scss");
 
       
       
@@ -259,12 +247,12 @@ options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWi
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_egg_salad_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_egg_salad_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_egg_salad_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_egg_salad_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -575,63 +563,73 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/assets/broccoli_soup_1280.jpg":
+/***/ "./src/assets/ingredients/egg.svg":
+/*!****************************************!*\
+  !*** ./src/assets/ingredients/egg.svg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/egg.svg";
+
+/***/ }),
+
+/***/ "./src/assets/ingredients/mayonnaise.svg":
+/*!***********************************************!*\
+  !*** ./src/assets/ingredients/mayonnaise.svg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/mayonnaise.svg";
+
+/***/ }),
+
+/***/ "./src/assets/ingredients/mustard.svg":
+/*!********************************************!*\
+  !*** ./src/assets/ingredients/mustard.svg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/mustard.svg";
+
+/***/ }),
+
+/***/ "./src/assets/ingredients/paprika.svg":
+/*!********************************************!*\
+  !*** ./src/assets/ingredients/paprika.svg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/paprika.svg";
+
+/***/ }),
+
+/***/ "./src/assets/ingredients/pepper.svg":
 /*!*******************************************!*\
-  !*** ./src/assets/broccoli_soup_1280.jpg ***!
+  !*** ./src/assets/ingredients/pepper.svg ***!
   \*******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/broccoli_soup_1280.jpg";
+module.exports = __webpack_require__.p + "images/pepper.svg";
 
 /***/ }),
 
-/***/ "./src/assets/broccoli_soup_1920.jpg":
-/*!*******************************************!*\
-  !*** ./src/assets/broccoli_soup_1920.jpg ***!
-  \*******************************************/
+/***/ "./src/assets/ingredients/pepper_salt.svg":
+/*!************************************************!*\
+  !*** ./src/assets/ingredients/pepper_salt.svg ***!
+  \************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/broccoli_soup_1920.jpg";
+module.exports = __webpack_require__.p + "images/pepper_salt.svg";
 
 /***/ }),
 
-/***/ "./src/assets/broccoli_soup_640.jpg":
-/*!******************************************!*\
-  !*** ./src/assets/broccoli_soup_640.jpg ***!
-  \******************************************/
+/***/ "./src/assets/ingredients/spring_onion.svg":
+/*!*************************************************!*\
+  !*** ./src/assets/ingredients/spring_onion.svg ***!
+  \*************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/broccoli_soup_640.jpg";
-
-/***/ }),
-
-/***/ "./src/assets/egg_salad_1280.jpg":
-/*!***************************************!*\
-  !*** ./src/assets/egg_salad_1280.jpg ***!
-  \***************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/egg_salad_1280.jpg";
-
-/***/ }),
-
-/***/ "./src/assets/egg_salad_1920.jpg":
-/*!***************************************!*\
-  !*** ./src/assets/egg_salad_1920.jpg ***!
-  \***************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/egg_salad_1920.jpg";
-
-/***/ }),
-
-/***/ "./src/assets/egg_salad_640.jpg":
-/*!**************************************!*\
-  !*** ./src/assets/egg_salad_640.jpg ***!
-  \**************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/egg_salad_640.jpg";
+module.exports = __webpack_require__.p + "images/spring_onion.svg";
 
 /***/ }),
 
@@ -642,36 +640,6 @@ module.exports = __webpack_require__.p + "images/egg_salad_640.jpg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "images/restaurant_plate.svg";
-
-/***/ }),
-
-/***/ "./src/assets/shrimp_1280.jpg":
-/*!************************************!*\
-  !*** ./src/assets/shrimp_1280.jpg ***!
-  \************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/shrimp_1280.jpg";
-
-/***/ }),
-
-/***/ "./src/assets/shrimp_1920.jpg":
-/*!************************************!*\
-  !*** ./src/assets/shrimp_1920.jpg ***!
-  \************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/shrimp_1920.jpg";
-
-/***/ }),
-
-/***/ "./src/assets/shrimp_640.jpg":
-/*!***********************************!*\
-  !*** ./src/assets/shrimp_640.jpg ***!
-  \***********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/shrimp_640.jpg";
 
 /***/ })
 
@@ -785,7 +753,7 @@ module.exports = __webpack_require__.p + "images/shrimp_640.jpg";
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"index": 0
+/******/ 			"egg_salad": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -812,38 +780,17 @@ module.exports = __webpack_require__.p + "images/shrimp_640.jpg";
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-/*!*************************!*\
-  !*** ./src/js/index.js ***!
-  \*************************/
+/*!*****************************!*\
+  !*** ./src/js/egg_salad.js ***!
+  \*****************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _style_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../style/style.scss */ "./src/style/style.scss");
-/* harmony import */ var _broccoli_soup_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../broccoli_soup.html */ "./src/broccoli_soup.html");
-/* harmony import */ var _assets_restaurant_plate_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/restaurant_plate.svg */ "./src/assets/restaurant_plate.svg");
-/* harmony import */ var _assets_broccoli_soup_640_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/broccoli_soup_640.jpg */ "./src/assets/broccoli_soup_640.jpg");
-/* harmony import */ var _assets_broccoli_soup_1280_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/broccoli_soup_1280.jpg */ "./src/assets/broccoli_soup_1280.jpg");
-/* harmony import */ var _assets_broccoli_soup_1920_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/broccoli_soup_1920.jpg */ "./src/assets/broccoli_soup_1920.jpg");
-/* harmony import */ var _assets_egg_salad_640_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/egg_salad_640.jpg */ "./src/assets/egg_salad_640.jpg");
-/* harmony import */ var _assets_egg_salad_1280_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/egg_salad_1280.jpg */ "./src/assets/egg_salad_1280.jpg");
-/* harmony import */ var _assets_egg_salad_1920_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/egg_salad_1920.jpg */ "./src/assets/egg_salad_1920.jpg");
-/* harmony import */ var _assets_shrimp_640_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/shrimp_640.jpg */ "./src/assets/shrimp_640.jpg");
-/* harmony import */ var _assets_shrimp_1280_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/shrimp_1280.jpg */ "./src/assets/shrimp_1280.jpg");
-/* harmony import */ var _assets_shrimp_1920_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/shrimp_1920.jpg */ "./src/assets/shrimp_1920.jpg");
+/* harmony import */ var _style_egg_salad_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../style/egg_salad.scss */ "./src/style/egg_salad.scss");
+/* harmony import */ var _assets_restaurant_plate_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/restaurant_plate.svg */ "./src/assets/restaurant_plate.svg");
 
 
-
-
-
-
-
-
-
-
-
-
-console.log('aod  awd aw');
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=mainb9984fa7757ab059b286.js.map
+//# sourceMappingURL=main9b8be648c14107491ab5.js.map
